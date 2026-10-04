@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="amazon-oss"
+          fetch="https://github.com/amazon-oss"
+          revision="refs/heads/lineage-24.0" />
+
+  <project path="device/amazon/sunstone" name="android_device_amazon_sunstone" remote="amazon-oss" />
+
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="amazon-oss" />
+
+  <project path="kernel/amazon/mt8188" name="android_kernel_amazon_mt8188" remote="amazon-oss" />
+
+  <project path="hardware/amazon" name="android_hardware_amazon" remote="amazon-oss" />
+  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" />
+
+  <project path="vendor/amazon/sunstone" name="android_vendor_amazon_sunstone" remote="amazon-oss" />
+</manifest>
